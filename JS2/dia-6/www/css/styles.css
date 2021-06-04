@@ -1,0 +1,10 @@
+p {
+    border: 5px solid black;
+    background-color: yellow;
+    margin: 3%;
+    padding: 50px;
+    font-size: 150%;
+    line-height: 150%;
+    word-spacing: 2pt;
+    border-radius: 100%;
+}

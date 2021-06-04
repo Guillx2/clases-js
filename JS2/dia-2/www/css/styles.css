@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: Digital;
+    src: url("/fonts/digital.woff2"), url("/fonts/digital.woff");
+    font-weight: normal;
+  }
+  
+
+  html {
+    --highlight: white;
+    --positive: rgba(255, 255, 255, 1);
+  }
+  
+  body {
+    font-family: Digital, sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-size: cover;
+    color: var(--highlight);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 12rem;
+    font-weight: normal;
+  
+    text-shadow: 0 0 10px var(--positive);
+  }
+  
+  h2 {
+    font-size: 3rem;
+    font-weight: normal;
+    color: var(--positive);
+  }
+  
